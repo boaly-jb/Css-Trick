@@ -23,18 +23,18 @@
 }
 .div2::before {
     content: "";
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        transform: translateX(-100%);
-        width: 50%;
-        height: 100%;
-        background: transparent;
-        box-shadow: inset -20px -20px 0px white;
-        border-radius: 0 0 20px 0;
-        transition: border-radius 300ms ease;
-        pointer-events: none;
-        z-index: -1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: translateX(-100%);
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    box-shadow: inset -20px -20px 0px white;
+    border-radius: 0 0 20px 0;
+    transition: border-radius 300ms ease;
+    pointer-events: none;
+    z-index: -1;
 }
 .div2::after {
     content: "";
@@ -51,24 +51,3 @@
     pointer-events: none;
     z-index: -1;
 }
-
-/* 
-
-.div-1_1::before{
-        content: "";
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        transform: translateX(-100%);
-
-        width: 50%;
-        height: 100%;
-        background: transparent;
-        box-shadow: inset -20px -20px 0px white;
-        border-radius: 0 0 20px 0;
-        transition: border-radius 300ms ease;
-        pointer-events: none;
-        z-index: -1;
-    }
-
-*/

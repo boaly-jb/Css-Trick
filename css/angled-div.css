@@ -1,0 +1,45 @@
+.angled {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 400px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.angld-content {
+    width:50%;
+    height: 100%;
+    background: #0a2d2e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.angld-content a {
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.angld-content a:hover {
+    color: #0a2d2e;
+    background-color: white;
+}
+.angled-imgbox {
+    /* * Must be Write From */
+    width:50%;
+    height: 100%;
+    background-color: #ff6361;
+    border-left: 70px solid #0a2d2e;
+    border-bottom: 400px solid transparent;
+    box-sizing: border-box;
+    /* * To Here */
+    color: white;
+}
